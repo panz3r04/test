@@ -3,6 +3,7 @@
  */
 public class testowka {
     public void main(String args[]){
-        System.out.println("cos tam");
+        pieter piotr = new pieter("Marcin", "Nopek");
+        System.out.println(piotr.credentials());
     }
 }
